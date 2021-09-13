@@ -19,6 +19,7 @@
 --background-tertiary: #f7f9ff !important;
 --background-mentioned: hsla(230,calc(var(--saturation-factor, 1)*60%),50%,0.1);
 --background-mentioned-hover: hsla(230,calc(var(--saturation-factor, 1)*60%),54.1%,0.2);
+--brand-experiment-560: #525f6b !important;
 --brand-experiment-600: #313b46 !important;
 --brand-experiment: #333e49 !important;
 --info-warning-foreground: hsl(230,calc(var(--saturation-factor, 1)*95%),80%);
