@@ -1,0 +1,134 @@
+/**
+* @name snuscord
+* @author snus
+* @description This theme makes everything popout and have rounded corners, bubbles.
+* @version 1.0.7
+*/
+
+/*Voicechannel controls/Video/Screen controls/Current game, change none to block if needed*/
+.wrapper-24pKcD, .panel-24C3ux.activityPanel-28dQGo{
+    display: none;
+}
+
+.theme-light{
+--light-adaptive-background: #f7f9ff !important;
+--background-secondary: #f7f9ff !important;
+--background-secondary-alt: #f7f9ff !important;
+--background-primary: #f7f9ff !important;
+--background-floating: #f7f9ff !important;
+--background-tertiary: #f7f9ff !important;
+--background-mentioned: hsla(230,calc(var(--saturation-factor, 1)*60%),50%,0.1);
+--background-mentioned-hover: hsla(230,calc(var(--saturation-factor, 1)*60%),54.1%,0.2);
+--brand-experiment-600: #313b46 !important;
+--brand-experiment: #333e49 !important;
+--info-warning-foreground: hsl(230,calc(var(--saturation-factor, 1)*95%),80%);
+--channeltextarea-background: #e1e5ee !important;
+--colorisha: #bd9cfd !important;
+--scrollbar-auto-thumb: #afb7cf !important;
+--scrollbar-auto-track: #eef0f7 !important;
+--buttona: #fff !important;
+--text-link: hsl(225,calc(var(--saturation-factor, 1)*100%),50%);
+}
+.notice-3bPHh-, .platform-win .sidebar-2K8pFh, .chat-3bRxxu, .wrapper-3NnKdC.guilds-1SWlCJ[aria-label="Servers sidebar"]{
+    border-radius: 0px 0px 0px 0px !important;
+}
+.content-98HsJk, .container-2lgZY8{
+    background-color: var(--background-primary);
+}
+.activityPanel-28dQGo, .container-3baos1{
+    border-top: 1px solid var(--background-modifier-accent);
+}
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih{
+    background-color: var(--background-secondary);
+    border-right: 1px solid var(--background-modifier-accent);
+}
+.chat-3bRxxu{
+    border-left: 1px solid var(--background-modifier-accent);
+    background-color: var(--background-secondary);
+}
+.peopleColumn-29fq28{
+    background-color: var(--background-secondary);
+    border-left: 1px solid var(--background-modifier-accent);
+}
+[class="typeWindows-1za-n7 withFrame-haYltI titleBar-AC4pGV horizontalReverse-3tRjY7 flex-1O1GKY directionRowReverse-m8IjIq justifyStart-2NDFzi alignStretch-DpGPf3"]{
+    border-bottom: 1px solid var(--background-modifier-accent);
+}
+[class="privateChannelsHeaderContainer-3NB1K1 container-2ax-kl"]{
+    margin-top: 5px;
+    padding-top: 11px;
+    margin-bottom: -3px;
+    border-top: 1px solid var(--background-modifier-accent);
+}
+.radioBar-bMNUI-{
+    border: 1px solid var(--background-modifier-accent);
+    border-radius: 0 0 0 0 !important;
+}
+.contentRegion-3nDuYy{
+    border-left: 1px solid var(--background-modifier-accent);
+}
+.colorable-1bkp8v.primaryLight-1_NQ7Q{
+    background: var(--text-normal) !important;
+}
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 ,.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,.item-2hkk8m{
+    background: var(--text-normal) !important;
+}
+[class="scroller-3gAZLs videoGrid-1khsrF thin-1ybCId scrollerBase-289Jih fade-2kXiP2"]{
+    background-color: var(--light-adaptive-background)!important;
+}
+.root-217Brm{
+    fill:var(--light-adaptive-background)!important;
+}
+.theme-light .progress-1IcQ3A{
+    background-color: var(--background-primary);
+}
+.container-3PXSwK{
+    background: var(--text-normal) !important;
+}
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{
+    background-color: var(--background-primary);
+    border-radius: 0 0 0 0 !important;
+}
+.css-x3hllb-control{
+    border-radius: 0 0 0 0 !important;
+}
+.mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before{
+    background-color: var(--buttona)!important;
+}
+.circleIconButton-1QV--U{
+    color: var(--text-normal) !important;
+}
+.circleIconButton-1QV--U.selected-1JjBPm{
+    color: var(--buttona) !important;
+    background-color: var(--text-normal);
+}
+.colorable-1bkp8v.primaryLight-1_NQ7Q, .colorable-1bkp8v.primaryLight-1_NQ7Q .centerIcon-2G6o-T {
+    color: var(--buttona);
+}
+[class="channel-2QD9_O container-2Pjhx- clickable-1JJAn8"][aria-posinset="3"],[aria-posinset="2"]{
+    display: none
+}
+[class="pro-1T8RK7 base-1x0h_U size12-3cLvbJ"]{
+    color: var(--colorisha);
+}
+.avatarWrapper-2yR4wp{
+    padding-left: 8px;
+    margin-right: 13px !important;
+}
+.messagesWrapper-1sRNjr.group-spacing-16{
+    border-right: 1px solid var(--background-modifier-accent);
+}
+.layout-2DM8Md, .searchBar-6Kv8R2{
+    margin-right: 6px;
+}
+.folderIconWrapper-1_bOZe{
+    transition-timing-function: ease-in-out !important;
+}
+[class="item-3HknzM item-PXvHYJ themed-OHr7kt"][aria-label="Add Friend"]{
+    background-color: var(--brand-experiment-560) !important;
+}
+.icon-Zc-uZZ[fill="url(#uid_406)"]{
+    display: none;
+}
+[href="https://support.discord.com"],[aria-label="Inbox"],[aria-label="Send a gift"],[aria-label="Open GIF picker"],[aria-label="Open sticker picker"]{
+    display: none;
+}

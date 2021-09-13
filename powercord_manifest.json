@@ -1,0 +1,9 @@
+{	
+  "name": "Snus+",
+  "description": "brih",
+  "version": "6.6.6",
+  "author": "CCrashtek",
+  "license": "MIT",
+  "theme": "snus.css",
+  "consent": "true"
+}
