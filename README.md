@@ -16,4 +16,6 @@ cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/simp
 ```
 after that, just press ctrl+r in your discord
 
+### Need help? Dm me: Да#4103
+
 #### [:black_heart:](https://youtu.be/_ygcbrBRMLY)
