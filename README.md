@@ -12,7 +12,7 @@
 ## Installation (powercord only):
 Open command prompt or whatever, and copy&paste the following command:
 ```
-cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/simple-blue-discord-snus
+cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/simple-blue-discord
 ```
 after that, just press ctrl+r in your discord
 
