@@ -30,6 +30,24 @@
 --buttona: #fff !important;
 --text-link: hsl(225,calc(var(--saturation-factor, 1)*100%),50%);
 }
+.closeButton-3cJIM4{
+    display: none !important;
+}
+.circleIconButton-1XqULR{
+    color: var(--brand-experiment) !important;
+}
+.notice-3bPHh-.colorStreamerMode-2SJAUN{
+    background-color: var(--background-primary) !important;
+    color: var(--text-normal) !important;
+}
+.theme-dark .button-2DhvE9, .theme-light .button-2DhvE9{
+    color: var(--text-normal) !important;
+    border-color: var(--text-normal);
+}
+.circleIconButton-1XqULR.selected-2jcQaY{
+    color: var(--background-primary) !important;
+    background-color: var(--brand-experiment) !important;
+}
 .notice-3bPHh-, .platform-win .sidebar-2K8pFh, .chat-3bRxxu, .wrapper-3NnKdC.guilds-1SWlCJ[aria-label="Servers sidebar"]{
     border-radius: 0px 0px 0px 0px !important;
 }
