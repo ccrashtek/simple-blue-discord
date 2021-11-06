@@ -1,9 +1,18 @@
 /**
 * @name snuscord
-* @author ccrashtek
-* @description brih
+* @author Да#4103
+* @description snus+ flux+ dota 2 jaguar energy drink master yi damn
 * @version 6.6.6
 */
+
+/*Voicechannel controls/Video/Screen controls/Current game, change none to block if needed*/
+.wrapper-24pKcD, .panel-24C3ux.activityPanel-28dQGo{
+    display: none;
+}
+/*Things in options, change none to block if needed*/
+.info-1VyQPT,.socialLinks-3jqNFy{
+    display: none;
+}
 
 .theme-light{
 --light-adaptive-background: #f7f9ff !important;
@@ -24,15 +33,46 @@
 --scrollbar-auto-track: #eef0f7 !important;
 --buttona: #fff !important;
 --text-link: hsl(225,calc(var(--saturation-factor, 1)*100%),50%);
+--darky: rgb(17, 17, 20) !important;
 }
-.wrapper-24pKcD, .panel-24C3ux.activityPanel-28dQGo{
-    display: none;
+.theme-dark{
+--background-primary:var(--darky) !important;
+}
+.callContainer-36WRfH .gradientContainer-10lXLB {
+    display: none !important;
+}
+[class="scroller-3gAZLs videoGrid-1khsrF thin-1ybCId scrollerBase-289Jih fade-2kXiP2"]{
+    background-color: var(--darky)!important;
+}
+.tutorialContainer-11ICd5{
+    padding-top: 3px;
+}
+.streamerModeEnabledBtn-2ZJ2eq{
+    background-color: var(--brand-experiment) !important;
+}
+.closeButton-3cJIM4{
+    display: none !important;
+}
+.circleIconButton-hZmpE8{
+    color: var(--brand-experiment) !important;
+}
+.notice-3bPHh-.colorStreamerMode-2SJAUN{
+    background-color: var(--background-primary) !important;
+    color: var(--text-normal) !important;
+}
+.theme-dark .button-2DhvE9, .theme-light .button-2DhvE9{
+    color: var(--text-normal) !important;
+    border-color: var(--text-normal);
+}
+.callContainer-36WRfH{
+    background: var(--background-primary) !important;
+}
+.circleIconButton-hZmpE8.selected-3mFF3I{
+    color: var(--background-primary) !important;
+    background-color: var(--brand-experiment) !important;
 }
 .notice-3bPHh-, .platform-win .sidebar-2K8pFh, .chat-3bRxxu, .wrapper-3NnKdC.guilds-1SWlCJ[aria-label="Servers sidebar"]{
     border-radius: 0px 0px 0px 0px !important;
-}
-.container-1r6BKwm,.theme-dark .children-19S4PO:after,.theme-light .children-19S4PO:after,.platform-osx .container-1r6BKw,.container-1r6BKw.transparent-2ZlE3R.theme-dark{
-    display: none !important;
 }
 .content-98HsJk, .container-2lgZY8{
     background-color: var(--background-primary);
@@ -52,7 +92,6 @@
     background-color: var(--background-secondary);
     border-left: 1px solid var(--background-modifier-accent);
 }
-/*
 [class="typeWindows-1za-n7 withFrame-haYltI titleBar-AC4pGV horizontalReverse-3tRjY7 flex-1O1GKY directionRowReverse-m8IjIq justifyStart-2NDFzi alignStretch-DpGPf3"]{
     border-bottom: 1px solid var(--background-modifier-accent);
 }
@@ -62,7 +101,9 @@
     margin-bottom: -3px;
     border-top: 1px solid var(--background-modifier-accent);
 }
-*/
+.quickSelectLabel-2r3iJ_{
+    display:none !important;
+}
 .radioBar-bMNUI-{
     border: 1px solid var(--background-modifier-accent);
     border-radius: 0 0 0 0 !important;
@@ -76,11 +117,6 @@
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 ,.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,.item-2hkk8m{
     background: var(--text-normal) !important;
 }
-/*
-[class="scroller-3gAZLs videoGrid-1khsrF thin-1ybCId scrollerBase-289Jih fade-2kXiP2"]{
-    background-color: var(--light-adaptive-background)!important;
-}
-*/
 .root-217Brm{
     fill:var(--light-adaptive-background)!important;
 }
@@ -110,14 +146,12 @@
 .colorable-1bkp8v.primaryLight-1_NQ7Q, .colorable-1bkp8v.primaryLight-1_NQ7Q .centerIcon-2G6o-T {
     color: var(--buttona);
 }
-/*
-[class="channel-2QD9_O container-2Pjhx- clickable-1JJAn8"][aria-posinset="3"],[aria-posinset="2"]{
-    display: none
-}
 [class="pro-1T8RK7 base-1x0h_U size12-3cLvbJ"]{
     color: var(--colorisha);
 }
-*/
+[class="channel-2QD9_O container-2Pjhx- clickable-1JJAn8"][id="private-channels-1"]{
+    display: none !important;
+}
 .avatarWrapper-2yR4wp{
     padding-left: 8px;
     margin-right: 13px !important;
@@ -131,16 +165,12 @@
 .folderIconWrapper-1_bOZe{
     transition-timing-function: ease-in-out !important;
 }
-/*
 [class="item-3HknzM item-PXvHYJ themed-OHr7kt"][aria-label="Add Friend"]{
     background-color: var(--brand-experiment-560) !important;
 }
-*/
 .icon-Zc-uZZ[fill="url(#uid_406)"]{
     display: none;
 }
-/*
 [href="https://support.discord.com"],[aria-label="Inbox"],[aria-label="Send a gift"],[aria-label="Open GIF picker"],[aria-label="Open sticker picker"]{
     display: none;
 }
-*/

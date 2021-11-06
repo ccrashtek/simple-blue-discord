@@ -1,12 +1,16 @@
 /**
 * @name snuscord
-* @author snus
-* @description This theme makes everything popout and have rounded corners, bubbles.
-* @version 1.0.7
+* @author Да#4103
+* @description snus+ flux+ dota 2 jaguar energy drink master yi damn
+* @version 6.6.6
 */
 
 /*Voicechannel controls/Video/Screen controls/Current game, change none to block if needed*/
 .wrapper-24pKcD, .panel-24C3ux.activityPanel-28dQGo{
+    display: none;
+}
+/*Things in options, change none to block if needed*/
+.info-1VyQPT,.socialLinks-3jqNFy{
     display: none;
 }
 
@@ -29,9 +33,22 @@
 --scrollbar-auto-track: #eef0f7 !important;
 --buttona: #fff !important;
 --text-link: hsl(225,calc(var(--saturation-factor, 1)*100%),50%);
+--darky: rgb(17, 17, 20) !important;
 }
 .theme-dark{
---background-primary:#f7f9ff !important;
+--background-primary:var(--darky) !important;
+}
+.callContainer-36WRfH .gradientContainer-10lXLB {
+    display: none !important;
+}
+[class="scroller-3gAZLs videoGrid-1khsrF thin-1ybCId scrollerBase-289Jih fade-2kXiP2"]{
+    background-color: var(--darky)!important;
+}
+.tutorialContainer-11ICd5{
+    padding-top: 3px;
+}
+.streamerModeEnabledBtn-2ZJ2eq{
+    background-color: var(--brand-experiment) !important;
 }
 .closeButton-3cJIM4{
     display: none !important;
@@ -84,6 +101,9 @@
     margin-bottom: -3px;
     border-top: 1px solid var(--background-modifier-accent);
 }
+.quickSelectLabel-2r3iJ_{
+    display:none !important;
+}
 .radioBar-bMNUI-{
     border: 1px solid var(--background-modifier-accent);
     border-radius: 0 0 0 0 !important;
@@ -96,9 +116,6 @@
 }
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 ,.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,.item-2hkk8m{
     background: var(--text-normal) !important;
-}
-[class="scroller-3gAZLs videoGrid-1khsrF thin-1ybCId scrollerBase-289Jih fade-2kXiP2"]{
-    background-color: var(--light-adaptive-background)!important;
 }
 .root-217Brm{
     fill:var(--light-adaptive-background)!important;
@@ -129,11 +146,11 @@
 .colorable-1bkp8v.primaryLight-1_NQ7Q, .colorable-1bkp8v.primaryLight-1_NQ7Q .centerIcon-2G6o-T {
     color: var(--buttona);
 }
-[class="channel-2QD9_O container-2Pjhx- clickable-1JJAn8"][aria-posinset="3"],[aria-posinset="2"]{
-    display: none
-}
 [class="pro-1T8RK7 base-1x0h_U size12-3cLvbJ"]{
     color: var(--colorisha);
+}
+[class="channel-2QD9_O container-2Pjhx- clickable-1JJAn8"][id="private-channels-1"]{
+    display: none !important;
 }
 .avatarWrapper-2yR4wp{
     padding-left: 8px;
