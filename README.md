@@ -7,8 +7,8 @@
 ### PROFIT!
 
 ## Screenshots:
-![dt](https://i.imgur.com/rGRsXvm.png)
-![dt](https://i.imgur.com/M9Y0b2B.png)
+![dt](https://i.imgur.com/A8DpYJu.png)
+![dt](https://i.imgur.com/n6covzg.png)
 ## Installation:
 
 ### Powercord:
