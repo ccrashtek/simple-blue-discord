@@ -1,9 +1,9 @@
 {	
-  "name": "Snus+",
+  "name": "Simple blue discord",
   "description": "brih",
   "version": "6.6.6",
   "author": "CCrashtek",
   "license": "MIT",
-  "theme": "snus.css",
+  "theme": "sbd.css",
   "consent": "true"
 }
