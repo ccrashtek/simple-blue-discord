@@ -1,14 +1,13 @@
-# SNUS+
+![sbd](https://i.imgur.com/vvrbUw0.png)
 
-### Pick any number
-### Go to "Installation"
-### Install
-### . . .
-### PROFIT!
+# Simple blue discord
+brih
 
 ## Screenshots:
+
 ![dt](https://i.imgur.com/A8DpYJu.png)
 ![dt](https://i.imgur.com/n6covzg.png)
+
 ## Installation:
 
 ### Powercord:
