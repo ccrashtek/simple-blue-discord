@@ -5,8 +5,8 @@ brih
 
 ## Screenshots:
 
-![dt](https://i.imgur.com/A8DpYJu.png)
-![dt](https://i.imgur.com/n6covzg.png)
+![lt](https://i.imgur.com/UIFRF0W.png)
+![dt](https://i.imgur.com/UGVIXnv.png)
 
 ## Installation:
 
