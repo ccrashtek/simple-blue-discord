@@ -18,6 +18,55 @@
     --control-brand-foreground: var(--brand-experiment) !important;
     --elevation-low: unset !important;
 }
+.theme-light{
+    
+    --main-color: #f7f9ff;
+    --background-modifier-active: rgba(140, 142, 216, 0.2) !important;
+    --background-modifier-selected: rgba(172, 169, 221, 0.3) !important;
+    --background-modifier-hover: rgba(190, 189, 219, 0.3) !important;
+    --background-modifier-accent: #d9dce6 !important;
+    --light-adaptive-background: var(--main-color) !important;
+    --background-secondary: var(--main-color) !important;
+    --background-secondary-alt: var(--main-color) !important;
+    --background-primary: var(--main-color) !important;
+    --background-floating: var(--main-color) !important;
+    --background-tertiary: var(--main-color) !important;
+    --channeltextarea-background: #e1e5ee !important;
+    --brand-experiment: #2e3244 !important;
+    --scrollbar-auto-thumb: #afb7cf !important;
+    --scrollbar-auto-track: #eef0f7 !important;
+    --interactive-hover: rgb(0, 0, 0) !important;
+    --channels-default: rgb(70, 70, 75);
+    --text-muted: #5d6269 !important;
+    --text-link: rgb(4, 29, 255);
+
+}
+.theme-dark{
+
+    --main-color: #181d2c;
+    --background-modifier-active: rgba(140, 142, 216, 0.2) !important;
+    --background-modifier-selected: rgba(172, 169, 221, 0.3) !important;
+    --background-modifier-hover: rgba(190, 189, 219, 0.3) !important;
+    --background-modifier-accent: #37393f!important;
+    --light-adaptive-background: #f7f9ff !important;
+    --background-secondary: var(--main-color) !important;
+    --background-secondary-alt: var(--main-color) !important;
+    --background-primary: var(--main-color) !important;
+    --background-floating: var(--main-color) !important;
+    --background-tertiary: var(--main-color) !important;
+    --channeltextarea-background: #383f53 !important;
+    --brand-experiment: #6c8eeb !important;
+    --scrollbar-auto-thumb: #0d0f14 !important;
+    --scrollbar-auto-track: #1d2231 !important;
+    --interactive-hover: #fff !important;
+    --channels-default: rgb(201, 201, 201);
+    --text-muted: #b0b5be !important;
+    --text-link: rgb(199, 187, 255);
+
+}
+
+
+
 /*Voicechannel controls/Video/Screen controls/Current game*/
 .wrapper-24pKcD, .panel-24C3ux.activityPanel-28dQGo{
     display: var(--remover);
@@ -44,73 +93,6 @@
 }
 
 
-
-.theme-light{
-    
-    --background-modifier-active: rgba(140, 142, 216, 0.2) !important;
-    --background-modifier-selected: rgba(172, 169, 221, 0.3) !important;
-    --background-modifier-hover: rgba(190, 189, 219, 0.3) !important;
-    --background-modifier-accent: #d9dce6 !important;
-    --light-adaptive-background: #f7f9ff !important;
-    --background-secondary: #f7f9ff !important;
-    --background-secondary-alt: #f7f9ff !important;
-    --background-primary: #f7f9ff !important;
-    --background-floating: #f7f9ff !important;
-    --background-tertiary: #f7f9ff !important;
-    --channeltextarea-background: #e1e5ee !important;
-    --brand-experiment: #2e3244 !important;
-    --scrollbar-auto-thumb: #afb7cf !important;
-    --scrollbar-auto-track: #eef0f7 !important;
-    --interactive-hover: rgb(0, 0, 0) !important;
-    --channels-default: rgb(70, 70, 75);
-    --text-muted: #5d6269 !important;
-    --text-link: rgb(4, 29, 255);
-
-}
-
-.theme-dark{
-
-    --background-modifier-active: rgba(140, 142, 216, 0.2) !important;
-    --background-modifier-selected: rgba(172, 169, 221, 0.3) !important;
-    --background-modifier-hover: rgba(190, 189, 219, 0.3) !important;
-    --background-modifier-accent: #37393f!important;
-    --light-adaptive-background: #f7f9ff !important;
-    --background-secondary: #181d2c !important;
-    --background-secondary-alt: #181d2c !important;
-    --background-primary: #181d2c !important;
-    --background-floating: #181d2c !important;
-    --background-tertiary: #181d2c !important;
-    --channeltextarea-background: #383f53 !important;
-    --brand-experiment: #6c8eeb !important;
-    --scrollbar-auto-thumb: #0d0f14 !important;
-    --scrollbar-auto-track: #1d2231 !important;
-    --interactive-hover: #fff !important;
-    --channels-default: rgb(201, 201, 201);
-    --text-muted: #b0b5be !important;
-    --text-link: rgb(199, 187, 255);
-
-}
-
-
-
-.tutorialContainer-11ICd5{
-    padding-top: 3px;
-}
-.streamerModeEnabledBtn-2ZJ2eq{
-    background-color: var(--brand-experiment) !important;
-}
-.circleIconButton-hZmpE8{
-    color: var(--buttona) !important;
-    background-color: var(--brand-experiment);
-}
-.circleIconButton-hZmpE8.selected-3mFF3I{
-    color: var(--brand-experiment) !important;
-    background-color: var(--buttona) !important;
-}
-.theme-dark .button-2DhvE9, .theme-light .button-2DhvE9{
-    color: var(--text-normal) !important;
-    border-color: var(--text-normal);
-}
 
 /*borders*/
 .notice-3bPHh-, .platform-win .sidebar-2K8pFh, .chat-3bRxxu, .wrapper-3NnKdC.guilds-1SWlCJ[aria-label="Servers sidebar"]{
@@ -181,10 +163,31 @@
 .scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih, .scroller-3Vjo4T.thin-1ybCId.scrollerBase-289Jih{
     border-left: 1px solid var(--background-modifier-accent) !important;
 }
+.wrapper-2qzCYF.minimum-28Z35l{
+    border-bottom: 1px solid var(--background-modifier-accent) !important;
+}
 
 
 
-
+/*all other things*/
+.tutorialContainer-11ICd5{
+    padding-top: 3px;
+}
+.streamerModeEnabledBtn-2ZJ2eq{
+    background-color: var(--brand-experiment) !important;
+}
+.circleIconButton-hZmpE8{
+    color: var(--buttona) !important;
+    background-color: var(--brand-experiment);
+}
+.circleIconButton-hZmpE8.selected-3mFF3I{
+    color: var(--brand-experiment) !important;
+    background-color: var(--buttona) !important;
+}
+.theme-dark .button-2DhvE9, .theme-light .button-2DhvE9{
+    color: var(--text-normal) !important;
+    border-color: var(--text-normal);
+}
 .theme-dark .button-2DhvE9:hover, .theme-light .button-2DhvE9:hover{
     color: var(--buttonb) !important;
 }
@@ -272,6 +275,9 @@
 .avatarSpeaking-2c8-9i{
     box-shadow: inset 0 0 0 1px var(--brand-experiment),inset 0 0 0 2px var(--background-secondary) !important;
 }
+.border-3dQmSY.speaking-WDn8Wm{
+    box-shadow: inset 0 0 0 1px var(--brand-experiment),inset 0 0 0 2px var(--background-secondary) !important;
+}
 .navigationBar-2JJXBp{
     background-color: var(--brand-experiment) !important;
 }
@@ -303,5 +309,15 @@
     background: var(--brand-experiment) !important;
 }
 .iconContainer-27DuH-{
+    background-color: var(--brand-experiment) !important;
+}
+.theme-dark .root-1gCeng{
+    background-color: var(--background-primary) !important;
+    border: 1px solid var(--background-modifier-accent) !important;
+}
+[data-list-item-id="private-channels-uid_2343___nitro"]{
+    padding-bottom: 4px !important;
+}
+.iconBadge-1Prgh2.participating-1CYXS2{
     background-color: var(--brand-experiment) !important;
 }
