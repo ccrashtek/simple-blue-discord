@@ -126,7 +126,7 @@
     border-left: var(--border-size);
     background-color: var(--background-secondary);
 }
-.peopleColumn-29fq28{
+div[role=tabpanel]{
     background-color: var(--background-secondary);
     border-left: var(--border-size);
 }
